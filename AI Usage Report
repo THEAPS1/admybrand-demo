@@ -1,0 +1,43 @@
+# 🤖 AI Usage Report
+
+## AI Tools Used
+
+- **Primary tools:**
+  - **Claude AI** – Used to refine and structure the initial task description into a clear prompt for Bolt.new
+  - **Bolt.new** – Generated the initial project scaffold with Next.js 14, Tailwind CSS, and shadcn/ui setup
+  - **Cursor AI** – Main tool used in *Agent Mode* to implement all UI, layout, chart, and table changes with screenshot-based prompts and code preview
+  - **ChatGPT** – Used to write and polish this AI Usage Report and provide guidance on project structure and documentation
+
+- **Key use cases:**
+  - Translating the high-level project brief into clear prompts (Claude AI)
+  - Full project setup and base component generation (Bolt.new)
+  - Building all core features — metric cards, interactive charts, data table, animations, and enhancements — entirely through Cursor AI
+  - Final documentation support via ChatGPT
+
+---
+
+## Sample Prompts
+
+1. "Create an overview dashboard page with 4 metric cards using Tailwind and shadcn/ui"
+2. "Add responsive Recharts components with loading skeletons and dark mode support"
+3. "Implement a data table with sorting, filtering, and pagination using TanStack Table"
+
+---
+
+## AI vs Manual Work Split
+
+- **AI-generated (~90–95%)**
+  - Complete UI development (layout, sidebar, navbar, cards, charts, tables)
+  - Component logic, styling, animations, and real-time simulation
+  - Project scaffolding and dependency setup
+  - Documentation files (`README.md`, this report)
+
+- **Manual coding (~5–10%)**
+  - Prompt crafting and refinement across Claude, Bolt, and Cursor AI
+  - Minimal fine-tuning and responsiveness testing
+  - Git management and deployment steps
+
+- **Customization:**
+  - Most outputs were adapted directly through Cursor’s Agent Mode
+  - UI changes were iteratively applied using screenshot-based instructions
+  - Manual involvement was limited to guiding AI effectively and validating results
